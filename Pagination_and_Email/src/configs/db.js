@@ -1,9 +1,9 @@
-const mongoose = require("mongoose");
+let mongoose = require("mongoose");
 
 const connect = () => {
-  return mongoose.connect(
-    "mongodb+srv://dhaval:dhaval_123@cluster0.ljuvz.mongodb.net/web15-atlas?retryWrites=true&w=majority"
-  );
+    return mongoose.connect( 
+        "mongodb+srv://Gaurav:gapars12@cluster0.krruz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    );
 };
 
 module.exports = connect;
